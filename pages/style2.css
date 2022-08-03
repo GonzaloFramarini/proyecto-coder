@@ -1,0 +1,35 @@
+/* NOSOTROS CSS */
+
+/* BODY */
+body {
+margin: 0;
+padding: 0;
+font-family: Georgia;
+    background-color: #F0F7EE;
+}
+
+/* H1 */
+h1 {
+    text-align: justify;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+/* H2 */
+h2 {
+    font-family: Georgia;
+    font-weight: 500;
+    background-color: beige;
+}
+
+/* P */
+p {
+    font-family: Georgia;
+    background-color: beige;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 615px) {
+    #id-h1 { display: block;
+
+    }
