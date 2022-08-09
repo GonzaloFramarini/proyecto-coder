@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #3D3D3D;
+}
+
+
+
+/*Body*/
+
+
+
+/*Header*/
+
+
+
+/*Nav*/
+.content-logo{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/*H1*/
+h1{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/564x/12/b0/68/12b068d47127f6fa1a9de1223a9eb91b.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #3D3D3D;
+}
+
+
+
+/*Main*/
+h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: bisque;
+}
+
+
+
+/*Ul*/
+ul{
+    font-size: 20px;
+    color: bisque;
+}
+
+
+
+/*Footer*/
+footer{
+    
+}
