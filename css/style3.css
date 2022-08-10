@@ -7,11 +7,10 @@
 
 
 /*Body*/
+body{
+    text-align: center;
 
-
-
-/*Header*/
-
+}
 
 
 /*Nav*/
@@ -48,11 +47,16 @@ h2{
 ul{
     font-size: 20px;
     color: bisque;
+    text-align: left;
+    display: inline-block;
 }
 
 
 
 /*Footer*/
-footer{
-    
+.content-footerp{
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: bisque;
 }
