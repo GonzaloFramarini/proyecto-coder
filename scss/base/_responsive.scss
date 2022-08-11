@@ -1,0 +1,25 @@
+@media screen and (max-width: 400px){
+    .section-2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 530px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+@media screen and (min-width: 770px){
+    .form-class{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 770px){
+    .form-class{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
