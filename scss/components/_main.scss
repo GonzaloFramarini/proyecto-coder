@@ -1,3 +1,4 @@
+/*---index.html---*/
 main{
     background-image: url(https://i.pinimg.com/564x/12/b0/68/12b068d47127f6fa1a9de1223a9eb91b.jpg);
     background-position: center;
@@ -91,5 +92,36 @@ main{
         background-image: url(https://images.unsplash.com/photo-1530629159325-9c378fc150b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
         background-size: cover;
         background-position: center;
+    }
+}
+/*---nosotros.html---*/
+main {
+    padding-top: 15px;
+    font-family: Georgia;
+    font-weight: 500;
+    .p-main{
+        font-size: 15px;
+        font-weight: 500;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: #3D3D3D;
+        color: bisque;
+    }
+    .link{
+        background-color: #3D3D3D;
+        color: rgb(49, 138, 223);
+    }
+}
+/*---contacto.html---*/
+main{
+    h2{
+        font-size: 30px;
+        font-weight: 500;
+        color: bisque;
+    }
+    ul{
+        font-size: 20px;
+        color: bisque;
+        text-align: left;
+        display: inline-block;
     }
 }
