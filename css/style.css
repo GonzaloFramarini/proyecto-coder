@@ -1,4 +1,59 @@
 /*---index.html---*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+/*---nosotros.html---*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: coral; }
+
+/*---contacto.html---*/
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #3D3D3D; }
+
+/*---index.html---*/
+@media screen and (max-width: 400px) {
+  .section-2 {
+    display: flex;
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 530px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto; } }
+
+@media screen and (min-width: 770px) {
+  .form-class {
+    display: flex;
+    flex-direction: row; } }
+
+@media screen and (max-width: 770px) {
+  .form-class {
+    display: flex;
+    flex-direction: column; } }
+
+/*---nosotros.html---*/
+@media screen and (min-width: 400px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    text-align: end; } }
+
+@media screen and (max-width: 580px) {
+  .h2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left; } }
+
+/*---contacto.html---*/
+/*---index.html---*/
 header {
   padding: 0;
   margin: 0; }
@@ -138,11 +193,6 @@ main ul {
   text-align: left;
   display: inline-block; }
 
-/*---index.html---*/
-form {
-  padding-top: 10px;
-  background-color: #3D3D3D; }
-
 /*---contacto.html---*/
 h1 {
   font-size: 60px;
@@ -151,7 +201,7 @@ h1 {
   background-image: url(https://i.pinimg.com/564x/12/b0/68/12b068d47127f6fa1a9de1223a9eb91b.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-  color: #3D3D3D; }
+  color: bisque; }
 
 /*---contacto.html---*/
 .h2 {
@@ -177,6 +227,11 @@ h3 {
   text-align: center;
   background-color: #3D3D3D;
   color: bisque; }
+
+/*---index.html---*/
+form {
+  padding-top: 10px;
+  background-color: #3D3D3D; }
 
 /*---index.html---*/
 footer {
