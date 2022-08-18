@@ -28,11 +28,17 @@ footer{
     }
 }
 /*---contacto.html---*/
-footer{
+footer .content-nos{
     .content-footerp{
         padding-top: 40px;
         font-size: 20px;
         font-weight: 500;
         color: bisque;
+    }
+    .content-imgnos{
+        margin: 0;
+        padding: 0;
+        width: 600px;
+        height: 600px;
     }
 }

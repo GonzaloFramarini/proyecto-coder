@@ -1,0 +1,7 @@
+@mixin flex ($flex, $direction){
+    display: $flex;
+    flex-direction: $direction;
+}
+.clas-headernos{
+    @include flex (flex, column);
+}

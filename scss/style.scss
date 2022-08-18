@@ -1,5 +1,4 @@
 @import "./base/generales";
-@import "./base/responsive";
 @import "./components/header";
 @import "./components/main";
 @import "./components/h1";
@@ -7,3 +6,8 @@
 @import "./components/h3";
 @import "./components/form";
 @import "./components/footer";
+@import "./base/responsive";
+@import "./base/variables";
+@import "./base/extends";
+@import "./base/maps";
+@import "./base/mixins";

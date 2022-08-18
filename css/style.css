@@ -1,58 +1,13 @@
-/*---index.html---*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Georgia, 'Times New Roman', Times, serif; }
 
-/*---nosotros.html---*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: coral; }
+.clas-headernos {
+  display: flex;
+  flex-direction: column; }
 
-/*---contacto.html---*/
-* {
-  margin: 0;
-  padding: 0;
-  background-color: #3D3D3D; }
-
-/*---index.html---*/
-@media screen and (max-width: 400px) {
-  .section-2 {
-    display: flex;
-    flex-wrap: wrap; } }
-
-@media screen and (max-width: 530px) {
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto; } }
-
-@media screen and (min-width: 770px) {
-  .form-class {
-    display: flex;
-    flex-direction: row; } }
-
-@media screen and (max-width: 770px) {
-  .form-class {
-    display: flex;
-    flex-direction: column; } }
-
-/*---nosotros.html---*/
-@media screen and (min-width: 400px) {
-  nav {
-    display: flex;
-    flex-direction: column;
-    text-align: end; } }
-
-@media screen and (max-width: 580px) {
-  .h2 {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: left; } }
-
-/*---contacto.html---*/
 /*---index.html---*/
 header {
   padding: 0;
@@ -65,22 +20,23 @@ header {
       height: 50px; }
 
 /*---nosotros.html---*/
-header {
+header .clas-headernos {
   display: flex;
   flex-direction: column; }
-  header nav {
-    font-size: 20px;
-    font-weight: 900;
-    color: #318adf; }
+
+header nav {
+  font-size: 20px;
+  font-weight: 900;
+  color: #318adf; }
 
 /*---contacto.html---*/
-hedader nav .content-logo {
+header .content-logo {
   width: 50px;
   height: 50px; }
 
 /*---index.html---*/
 main {
-  background-image: url(https://i.pinimg.com/564x/12/b0/68/12b068d47127f6fa1a9de1223a9eb91b.jpg);
+  background-image: url(/images/bgi.jpg);
   background-position: center;
   background-repeat: space;
   background-size: cover; }
@@ -93,6 +49,10 @@ main {
   main .grid-container {
     display: grid;
     grid-template-columns: auto auto auto; }
+  @media screen and (max-width: 530px) {
+    main .grid-container {
+      display: grid;
+      grid-template-columns: auto; } }
   main .grid-item1 {
     color: white;
     width: 150px;
@@ -171,6 +131,11 @@ main {
   padding-top: 15px;
   font-family: Georgia;
   font-weight: 500; }
+  main .content-mainnos {
+    background-image: url(/images/bgi.jpg);
+    background-position: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat; }
   main .p-main {
     font-size: 15px;
     font-weight: 500;
@@ -204,18 +169,17 @@ h1 {
   color: bisque; }
 
 /*---contacto.html---*/
-.h2 {
-  padding: 0;
-  font-size: 15px;
-  font-weight: 900;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: justify;
+h2 {
   color: bisque;
+  font-size: 15px;
+  padding: 0;
+  font-weight: 900;
+  text-align: justify;
   text-decoration: underline;
   background-color: #3D3D3D; }
 
 /*---nosotros.html---*/
-h2 {
+.header-nos {
   font-size: 30px;
   font-weight: 500;
   color: bisque; }
@@ -259,8 +223,63 @@ footer .footer-p {
   color: bisque; }
 
 /*---contacto.html---*/
-footer .content-footerp {
+footer .content-nos .content-footerp {
   padding-top: 40px;
   font-size: 20px;
   font-weight: 500;
   color: bisque; }
+
+footer .content-nos .content-imgnos {
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  height: 600px; }
+
+/*---index.html---*/
+@media screen and (max-width: 400px) {
+  .section-2 {
+    display: flex;
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 530px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto; } }
+
+@media screen and (min-width: 770px) {
+  .form-class {
+    display: flex;
+    flex-direction: row; } }
+
+@media screen and (max-width: 770px) {
+  .form-class {
+    display: flex;
+    flex-direction: column; } }
+
+/*---nosotros.html---*/
+@media screen and (min-width: 400px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    text-align: end; } }
+
+@media screen and (max-width: 580px) {
+  .h2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left; } }
+
+/*---contacto.html---*/
+/*---COLORES---*/
+/*---FONT-SIZE---*/
+h3 {
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  background-color: #3D3D3D;
+  color: bisque; }
+
+.clas-headernos {
+  display: flex;
+  flex-direction: column; }

@@ -1,16 +1,16 @@
+@import "../base/maps";
 /*---contacto.html---*/
-.h2 {
-    padding: 0;
-    font-size: 15px;
-    font-weight: 900;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-    color: bisque;
-    text-decoration: underline;
-    background-color: #3D3D3D;
+h2 {
+    color: map-get($h2, color-h2 );
+    font-size: map-get($h2, f-s );
+    padding: map-get($h2, padd );
+    font-weight: map-get($h2, f-w );
+    text-align: map-get($h2, t-a );
+    text-decoration: map-get($h2, t-d );
+    background-color: map-get($h2, bg-color );
 }
 /*---nosotros.html---*/
-h2{
+.header-nos{
     font-size: 30px;
     font-weight: 500;
     color: bisque;

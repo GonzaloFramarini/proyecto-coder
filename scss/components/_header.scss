@@ -1,3 +1,4 @@
+@import "../base/mixins";
 /*---index.html---*/
 header{
     padding: 0;
@@ -13,8 +14,13 @@ header{
 }
 /*---nosotros.html---*/
 header{
-    display: flex;
-    flex-direction: column;
+    .clas-headernos{
+        @mixin flex ($flex, $direction){
+            display: $flex;
+            flex-direction: $direction;
+        }
+        @include flex (flex, column);
+    }
     nav{
         font-size: 20px;
         font-weight: 900;
@@ -22,11 +28,9 @@ header{
     }
 }
 /*---contacto.html---*/
-hedader{
-    nav{
-        .content-logo{
-            width: 50px;
-            height: 50px;
+header{
+    .content-logo{
+        width: 50px;
+        height: 50px;
         }
     }
-}
