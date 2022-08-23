@@ -2,4 +2,23 @@
 form{
     padding-top: 10px;
     background-color: #3D3D3D;
+    .form-clas{
+        margin: auto;
+        .form-input{
+            font-size: 1rem;
+            padding: .8em .1em;
+            border: none;
+            outline: none;
+            border: 1px solid bisque;
+            border-radius: 0.2em;
+        }
+        .form-cta{
+            font-size: 1rem;
+            background-color: #318adf;
+            color: bisque;
+            border: none;
+            font-weight: 300;
+            padding: .7em 0;
+        }
+    }
 }

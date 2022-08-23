@@ -1,5 +1,5 @@
 /*---index.html---*/
-main{
+main {
     background-image: url(/images/bgi.jpg);
     background-position: center;
     background-repeat: space;
@@ -112,6 +112,7 @@ main {
         background-repeat: no-repeat;
     }
     .p-main{
+        padding-top: 10px;
         font-size: 15px;
         font-weight: 500;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -124,7 +125,7 @@ main {
     }
 }
 /*---contacto.html---*/
-main{
+main .content-maincon{
     h2{
         font-size: 30px;
         font-weight: 500;
@@ -135,5 +136,6 @@ main{
         color: bisque;
         text-align: left;
         display: inline-block;
+        background-color: #3D3D3D;
     }
 }

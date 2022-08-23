@@ -1,6 +1,7 @@
 @import "../base/maps";
+@import "../base/variables";
 /*---contacto.html---*/
-h2 {
+.content-h2 {
     color: map-get($h2, color-h2 );
     font-size: map-get($h2, f-s );
     padding: map-get($h2, padd );
@@ -10,8 +11,10 @@ h2 {
     background-color: map-get($h2, bg-color );
 }
 /*---nosotros.html---*/
-.header-nos{
+.content-h2nos{
     font-size: 30px;
     font-weight: 500;
     color: bisque;
+    text-align: center;
+    background-color: $blue;
 }

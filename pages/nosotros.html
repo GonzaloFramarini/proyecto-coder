@@ -5,12 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Keywords-->
+    <meta name="keywords" content="coffe, cafe, historia, history, contact, contacto, tienda, idea">
+    <!--Description-->
+    <meta name="description"
+        content="Nosotros es una pagina web dentro de nuestro sitio que dentro de ella, podras leer acerca de nuestra historia y como se creo CoffeeRepublic">
     <!--Animated-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--CSS-->
     <!--<link rel="stylesheet" href="../css/style2.css">-->
-    <link rel="stylesheet" href="../scss/style.scss">
-    <title>Nosotros</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Nosotros | Acerca de nosotros</title>
 
 </head>
 
@@ -18,13 +26,44 @@
     <!--Header-->
     <header class="clas-headernos">
         <!--Nav-->
-        <nav>
-            <a href="/index.html">Inicio</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../images/coffee-cup (2).png" alt="Logo de cafe" class="content-logonos"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Quienes Somos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./nosotros.html">Historia</a></li>
+                                <li><a class="dropdown-item" href="./contacto.html">Contacto</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">CoffeeRepublic©</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
     <!--H2-->
-    <section class="h2">
-        <h2 class="animate__animated animate__fadeInDown">A continuación podras leer nuestra historia.</h2>
+    <section">
+        <h2 class="content-h2nos">A continuación podras leer nuestra historia.</h2>
     </section>
     <!--Main-->
     <main class="content-mainnos">
@@ -32,23 +71,22 @@
             <p class="p-main"> CoffeRepublic fue creada un 2 de Julio de 2022 por <a class="link"
                     href="http://instagram.com/gonzaframarini/" target="_blank">Gonzalo Framarini</a>, dada su pasion
                 por el café y todo lo relacionado a el, decidió poner en marcha un proyecto para abrir su propia tienda
-                de café y asi cunplir su objetivo, ser propietario de su idea CoffeRepublic.</p>
+                de café y asi cumplir su objetivo, ser propietario de su idea CoffeRepublic.</p>
         </article>
+        
     </main>
-    <!--H3-->
-    <section class="clas-h3">
-        <h3>Aquí dejaremos nuestro Email para contactarnos en caso de ser necesario:</h3>
-        <ul>
-            <li><b>Email</b>, thecofferepublic@gmail.com</li>
-        </ul>
     </section>
     <!--Footer-->
     <footer class="content-footernos">
         <section class="clas-foot">
-            <img src="../images/fondonos.jpg" alt="imagen-de-tienda" class="content-imgnos">
+            <img src="../images/tienda.jpg" alt="imagen-de-tienda" class="content-imgnos">
             <p class="footer-p">CoffeRepublic©, todos los derechos reservados 2022</p>
         </section>
     </footer>
+    <!--Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

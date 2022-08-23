@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!--CSS-->
     <!--<link rel="stylesheet" href="/css/style3.css">-->
-    <link rel="stylesheet" href="/scss/style.scss">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Contacto</title>
 </head>
 
@@ -34,6 +34,15 @@
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
                             </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Quienes Somos
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="./nosotros.html">Historia</a></li>
+                                    <li><a class="dropdown-item" href="./contacto.html">Contacto</a></li>
+                                </ul>
                             <li class="nav-item">
                                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">CoffeRepublic©</a>
                             </li>
@@ -52,16 +61,19 @@
         <h1 class="animate__animated animate__fadeInTopLeft">Contacto</h1>
     </section>
     <!--Main-->
-    <main>
-        <h2 class="content-h2">Contactanos por nuestros medios</h2>
-        <ul>
-            <li type="">Email <p>thecofferepublic10@gmail.com</p></li>
-            <li><a href="http://instagram.com/gonzaframarini/" target="_blank" rel="noopener noreferrer">Instagram del creador</a></li>
-        </ul>
+    <main class="content-maincon">
+        <section>
+            <h2 class="content-h2">Contactanos por nuestros medios</h2>
+            <ul>
+                <li type="" class="li-email">Email,thecofferepublic10@gmail.com</li>
+                <li class="li-email"><a href="http://instagram.com/gonzaframarini/" target="_blank" rel="noopener noreferrer">Instagram del creador</a></li>
+            </ul>
+        </section>
     </main>
     <!--Footer-->
     <footer>
         <section class="content-footer">
+            <img src="../images/imgcontacto.jpg" alt="imagen de cafe" class="content-imagencontacto">
             <p class="content-footerp">CoffeeRepublic©, todos los derechos reservados 2022</p>
         </section>
     </footer>

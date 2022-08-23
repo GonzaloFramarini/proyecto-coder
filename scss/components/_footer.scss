@@ -1,6 +1,6 @@
 /*---index.html---*/
 footer{
-    padding-top: 40px;
+    padding-top: 5px;
     font-weight: 900;
     font-size: medium;
     color: bisque;
@@ -16,8 +16,8 @@ footer{
     }
     
     img{
-        height: 500px;
-        width: 500px;
+        height: 100%;
+        width: 100%;
     }
     
     .footer-p{
@@ -35,10 +35,11 @@ footer .content-nos{
         font-weight: 500;
         color: bisque;
     }
-    .content-imgnos{
+    .content-imagencontacto{
         margin: 0;
         padding: 0;
-        width: 600px;
-        height: 600px;
+        width: 70%;
+        height: 70%;
+        size: 70%;
     }
 }
