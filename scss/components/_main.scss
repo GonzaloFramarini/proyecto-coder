@@ -101,16 +101,10 @@ main {
     }
 }
 /*---nosotros.html---*/
-main {
+.content-mainnos {
     padding-top: 15px;
     font-family: Georgia;
     font-weight: 500;
-    .content-mainnos{
-        background-image: url(/images/bgi.jpg);
-        background-position: 100%;
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
     .p-main{
         padding-top: 10px;
         font-size: 15px;
@@ -125,7 +119,7 @@ main {
     }
 }
 /*---contacto.html---*/
-main .content-maincon{
+.content-maincon{
     h2{
         font-size: 30px;
         font-weight: 500;

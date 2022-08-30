@@ -126,33 +126,28 @@ main {
     background-position: center; }
 
 /*---nosotros.html---*/
-main {
+.content-mainnos {
   padding-top: 15px;
   font-family: Georgia;
   font-weight: 500; }
-  main .content-mainnos {
-    background-image: url(/images/bgi.jpg);
-    background-position: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat; }
-  main .p-main {
+  .content-mainnos .p-main {
     padding-top: 10px;
     font-size: 15px;
     font-weight: 500;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #3D3D3D;
     color: bisque; }
-  main .link {
+  .content-mainnos .link {
     background-color: #3D3D3D;
     color: #318adf; }
 
 /*---contacto.html---*/
-main .content-maincon h2 {
+.content-maincon h2 {
   font-size: 30px;
   font-weight: 500;
   color: bisque; }
 
-main .content-maincon ul {
+.content-maincon ul {
   font-size: 20px;
   color: bisque;
   text-align: left;
@@ -225,7 +220,7 @@ form {
 
 /*---index.html---*/
 footer {
-  padding-top: 5px;
+  padding-top: 50px;
   font-weight: 900;
   font-size: medium;
   color: bisque;
@@ -300,8 +295,7 @@ footer .content-nos .content-imagencontacto {
 @media screen and (max-width: 450px) {
   .li-email {
     display: flex;
-    flex-wrap: wrap;
-    text-align: start; } }
+    flex-wrap: wrap; } }
 
 /*---COLORES---*/
 .clas-headernos {
