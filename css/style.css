@@ -126,28 +126,28 @@ main {
     background-position: center; }
 
 /*---nosotros.html---*/
-.content-mainnos {
+main {
   padding-top: 15px;
   font-family: Georgia;
   font-weight: 500; }
-  .content-mainnos .p-main {
+  main .p-main {
     padding-top: 10px;
     font-size: 15px;
     font-weight: 500;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #3D3D3D;
     color: bisque; }
-  .content-mainnos .link {
+  main .link {
     background-color: #3D3D3D;
     color: #318adf; }
 
 /*---contacto.html---*/
-.content-maincon h2 {
+main h2 {
   font-size: 30px;
   font-weight: 500;
   color: bisque; }
 
-.content-maincon ul {
+main ul {
   font-size: 20px;
   color: bisque;
   text-align: left;
