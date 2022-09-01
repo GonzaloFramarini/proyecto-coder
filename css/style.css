@@ -33,6 +33,7 @@ header .content-logo {
   width: 50px;
   height: 50px; }
 
+/*---COLORES---*/
 /*---index.html---*/
 main {
   background-image: url(/images/bgi.jpg);
@@ -147,12 +148,17 @@ main h2 {
   font-weight: 500;
   color: bisque; }
 
-main ul {
-  font-size: 20px;
+main ul .li-email {
+  margin: 0%;
+  padding-top: 0%;
+  background-color: #3D3D3D;
   color: bisque;
-  text-align: left;
+  font-size: 20px;
+  font-weight: 900;
+  width: 100%;
+  height: 100%;
   display: inline-block;
-  background-color: #3D3D3D; }
+  text-align: center; }
 
 /*---contacto.html---*/
 h1 {
@@ -204,19 +210,6 @@ form {
       border: none;
       font-weight: 300;
       padding: .7em 0; }
-
-/*---COLORES---*/
-.li-email {
-  margin: 0%;
-  padding-top: 0%;
-  background-color: #3D3D3D;
-  color: bisque;
-  font-size: 20px;
-  font-weight: 900;
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-  text-align: center; }
 
 /*---index.html---*/
 footer {
@@ -295,7 +288,8 @@ footer .content-nos .content-imagencontacto {
 @media screen and (max-width: 450px) {
   .li-email {
     display: flex;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap;
+    text-align: left; } }
 
 /*---COLORES---*/
 .clas-headernos {
