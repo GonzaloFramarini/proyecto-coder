@@ -1,10 +1,12 @@
-/*---index.html---*/
 footer{
-    padding-top: 50px;
     font-weight: 900;
     font-size: medium;
     color: bisque;
     background-color: #3D3D3D;
+}
+/*---index.html---*/
+.content-footerindex{
+    padding-top: 50px;
 }
 /*---nosotros.html---*/
 footer{
@@ -21,6 +23,7 @@ footer{
     }
     
     .footer-p{
+        padding-top: 50px;
         font-size: 15px;
         font-weight: 700;
         background-color: #3D3D3D;
@@ -30,7 +33,7 @@ footer{
 /*---contacto.html---*/
 footer .content-nos{
     .content-footerp{
-        padding-top: 40px;
+        padding-top: 50px;
         font-size: 20px;
         font-weight: 500;
         color: bisque;

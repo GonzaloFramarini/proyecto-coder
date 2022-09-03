@@ -11,17 +11,11 @@
         grid-template-columns: auto;
     }
 }
-@media screen and (min-width: 770px){
-    .form-class{
-        display: flex;
-        flex-direction: row;
-    }
-}
+
 @media screen and (max-width: 770px){
     .form-class{
         display: flex;
         flex-direction: column;
-        
     }
 }
 /*---nosotros.html---*/

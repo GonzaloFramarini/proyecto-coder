@@ -35,100 +35,106 @@ header .content-logo {
 
 /*---COLORES---*/
 /*---index.html---*/
-main {
-  background-image: url(/images/bgi.jpg);
+main .section-2 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 20px;
+  background-color: coral; }
+
+main .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-image: url(/images/ma-img.jpg);
   background-position: center;
   background-repeat: space;
   background-size: cover; }
-  main .section-2 {
-    font-weight: 500;
-    font-size: 20px;
-    margin: 0;
-    padding-top: 20px;
-    background-color: coral; }
+
+@media screen and (max-width: 530px) {
   main .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto; }
-  @media screen and (max-width: 530px) {
-    main .grid-container {
-      display: grid;
-      grid-template-columns: auto; } }
-  main .grid-item1 {
-    color: white;
-    width: 150px;
-    height: 150px;
-    border: 4px solid black;
-    margin: 10px;
-    text-align: center;
-    font-weight: 900;
-    text-decoration: underline;
-    background-image: url(https://images.unsplash.com/photo-1485808191679-5f86510681a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
-    background-size: cover;
-    background-position: center; }
-  main .grid-item2 {
-    color: white;
-    width: 150px;
-    height: 150px;
-    border: 4px solid black;
-    margin: 10px;
-    text-align: center;
-    font-weight: 900;
-    text-decoration: underline;
-    background-image: url(https://images.unsplash.com/photo-1634234498465-a3a63b112256?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
-    background-size: cover;
-    background-position: center; }
-  main .grid-item3 {
-    color: white;
-    width: 150px;
-    height: 150px;
-    border: 4px solid black;
-    margin: 10px;
-    text-align: center;
-    font-weight: 900;
-    text-decoration: underline;
-    background-image: url(https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
-    background-size: cover;
-    background-position: center; }
-  main .grid-item4 {
-    color: white;
-    width: 150px;
-    height: 150px;
-    border: 4px solid black;
-    margin: 10px;
-    text-align: center;
-    font-weight: 900;
-    text-decoration: underline;
-    background-image: url(https://images.unsplash.com/photo-1602320574582-741740d4fcd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
-    background-size: cover;
-    background-position: center; }
-  main .grid-item5 {
-    color: white;
-    width: 150px;
-    height: 150px;
-    border: 4px solid black;
-    margin: 10px;
-    text-align: center;
-    font-weight: 900;
-    text-decoration: underline;
-    background-image: url(https://images.unsplash.com/photo-1593443320739-77f74939d0da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80);
-    background-size: cover;
-    background-position: center; }
-  main .grid-item6 {
-    color: white;
-    width: 150px;
-    height: 150px;
-    border: 4px solid black;
-    margin: 10px;
-    text-align: center;
-    font-weight: 900;
-    text-decoration: underline;
-    background-image: url(https://images.unsplash.com/photo-1530629159325-9c378fc150b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
-    background-size: cover;
-    background-position: center; }
+    grid-template-columns: auto; } }
+
+main .grid-item1 {
+  color: coral;
+  width: 150px;
+  height: 150px;
+  border: 4px solid black;
+  margin: 10px;
+  text-align: center;
+  font-weight: 900;
+  text-decoration: underline;
+  background-image: url(/images/cafe-espresso-min.jpg);
+  background-size: cover;
+  background-position: center; }
+
+main .grid-item2 {
+  color: coral;
+  width: 150px;
+  height: 150px;
+  border: 4px solid black;
+  margin: 10px;
+  text-align: center;
+  font-weight: 900;
+  text-decoration: underline;
+  background-image: url(/images/espresso-doble-min.jpg);
+  background-size: cover;
+  background-position: center; }
+
+main .grid-item3 {
+  color: coral;
+  width: 150px;
+  height: 150px;
+  border: 4px solid black;
+  margin: 10px;
+  text-align: center;
+  font-weight: 900;
+  text-decoration: underline;
+  background-image: url(/images/americano-min.jpg);
+  background-size: cover;
+  background-position: center; }
+
+main .grid-item4 {
+  color: coral;
+  width: 150px;
+  height: 150px;
+  border: 4px solid black;
+  margin: 10px;
+  text-align: center;
+  font-weight: 900;
+  text-decoration: underline;
+  background-image: url(/images/capuccino-min.jpg);
+  background-size: cover;
+  background-position: center; }
+
+main .grid-item5 {
+  color: coral;
+  width: 150px;
+  height: 150px;
+  border: 4px solid black;
+  margin: 10px;
+  text-align: center;
+  font-weight: 900;
+  text-decoration: underline;
+  background-image: url(/images/cafee-latte-min.jpg);
+  background-size: cover;
+  background-position: center; }
+
+main .grid-item6 {
+  color: coral;
+  width: 150px;
+  height: 150px;
+  border: 4px solid black;
+  margin: 10px;
+  text-align: center;
+  font-weight: 900;
+  text-decoration: underline;
+  background-image: url(/images/moca-min.jpg);
+  background-size: cover;
+  background-position: center; }
 
 /*---nosotros.html---*/
 main {
-  padding-top: 15px;
   font-family: Georgia;
   font-weight: 500; }
   main .p-main {
@@ -143,6 +149,10 @@ main {
     color: #318adf; }
 
 /*---contacto.html---*/
+main .content-maincon {
+  padding-top: 20px;
+  background-color: #3D3D3D; }
+
 main h2 {
   font-size: 30px;
   font-weight: 500;
@@ -150,7 +160,8 @@ main h2 {
 
 main ul .li-email {
   margin: 0%;
-  padding-top: 0%;
+  padding-top: 10px;
+  border-radius: 20px;
   background-color: #3D3D3D;
   color: bisque;
   font-size: 20px;
@@ -165,7 +176,7 @@ h1 {
   font-size: 60px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  background-image: url(/images/cafefinal.jpg);
+  background-image: url(/images/cafefinal-min.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 40%;
@@ -190,34 +201,40 @@ h1 {
   text-align: center;
   background-color: #3D3D3D; }
 
-/*---index.html---*/
-form {
+h3 {
   padding-top: 10px;
-  background-color: #3D3D3D; }
-  form .form-clas {
-    margin: auto; }
-    form .form-clas .form-input {
-      font-size: 1rem;
-      padding: .8em .1em;
-      border: none;
-      outline: none;
-      border: 1px solid bisque;
-      border-radius: 0.2em; }
-    form .form-clas .form-cta {
-      font-size: 1rem;
-      background-color: #318adf;
-      color: bisque;
-      border: none;
-      font-weight: 300;
-      padding: .7em 0; }
+  display: flex;
+  font-size: 25px;
+  font-weight: 500;
+  color: bisque;
+  background-color: coral; }
 
 /*---index.html---*/
+form {
+  background-color: #3D3D3D; }
+  form .form-input {
+    padding-top: 0%;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: bisque;
+    color: black;
+    border: 1px solid black; }
+  form .form-cta {
+    font-size: 16px;
+    background-color: #318adf;
+    color: bisque;
+    border: 1px solid black;
+    font-weight: 300; }
+
 footer {
-  padding-top: 50px;
   font-weight: 900;
   font-size: medium;
   color: bisque;
   background-color: #3D3D3D; }
+
+/*---index.html---*/
+.content-footerindex {
+  padding-top: 50px; }
 
 /*---nosotros.html---*/
 footer .clas-foot {
@@ -231,6 +248,7 @@ footer img {
   width: 100%; }
 
 footer .footer-p {
+  padding-top: 50px;
   font-size: 15px;
   font-weight: 700;
   background-color: #3D3D3D;
@@ -238,7 +256,7 @@ footer .footer-p {
 
 /*---contacto.html---*/
 footer .content-nos .content-footerp {
-  padding-top: 40px;
+  padding-top: 50px;
   font-size: 20px;
   font-weight: 500;
   color: bisque; }
@@ -260,11 +278,6 @@ footer .content-nos .content-imagencontacto {
   .grid-container {
     display: grid;
     grid-template-columns: auto; } }
-
-@media screen and (min-width: 770px) {
-  .form-class {
-    display: flex;
-    flex-direction: row; } }
 
 @media screen and (max-width: 770px) {
   .form-class {
