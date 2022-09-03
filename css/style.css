@@ -64,7 +64,7 @@ main .grid-item1 {
   text-align: center;
   font-weight: 900;
   text-decoration: underline;
-  background-image: url(/images/cafe-espresso-min.jpg);
+  background-image: url(/images/cafe-espresso.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -77,7 +77,7 @@ main .grid-item2 {
   text-align: center;
   font-weight: 900;
   text-decoration: underline;
-  background-image: url(/images/espresso-doble-min.jpg);
+  background-image: url(/images/espresso-doble.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -90,7 +90,7 @@ main .grid-item3 {
   text-align: center;
   font-weight: 900;
   text-decoration: underline;
-  background-image: url(/images/americano-min.jpg);
+  background-image: url(/images/americ-min.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -103,7 +103,7 @@ main .grid-item4 {
   text-align: center;
   font-weight: 900;
   text-decoration: underline;
-  background-image: url(/images/capuccino-min.jpg);
+  background-image: url(/images/capuccino.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -116,7 +116,7 @@ main .grid-item5 {
   text-align: center;
   font-weight: 900;
   text-decoration: underline;
-  background-image: url(/images/cafee-latte-min.jpg);
+  background-image: url(/images/cafee-latte.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -129,7 +129,7 @@ main .grid-item6 {
   text-align: center;
   font-weight: 900;
   text-decoration: underline;
-  background-image: url(/images/moca-min.jpg);
+  background-image: url(/images/moca.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -176,7 +176,7 @@ h1 {
   font-size: 60px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  background-image: url(/images/cafefinal-min.jpg);
+  background-image: url(/images/cafe-contacto.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 40%;
