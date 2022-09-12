@@ -1,20 +1,76 @@
 @import "../base/maps";
 @import "../base/variables";
-/*---contacto.html---*/
-.content-h2 {
+/*---index.html---*/
+.content-h2ind{
+    font-size: 25px;
+    font-weight: 500;
     color: map-get($h2, color-h2 );
-    font-size: map-get($h2, f-s );
-    padding: map-get($h2, padd );
-    font-weight: map-get($h2, f-w );
-    text-align: map-get($h2, t-a );
-    text-decoration: map-get($h2, t-d );
-    background-color: map-get($h2, bg-color );
+    background-color: map-get($h2,  bg-color );
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 3.0;
+}
+/*---contacto.html---*/
+.content-h2contacto{
+    font-size: 25px;
+    font-weight: 500;
+    color: map-get($h2, color-h2 );
+    background-color: map-get($h2,  bg-color );
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 3.0;
 }
 /*---nosotros.html---*/
 .content-h2nos{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
-    color: bisque;
+    color: map-get($h2, color-h2 );
+    background-color: map-get($h2,  bg-color );
+    display: flexbox;
+    justify-content: center;
     text-align: center;
-    background-color: $blue;
+    letter-spacing: 15px;
+    line-height: 4.0;
+    @media screen and (max-width: 570px){
+        .content-h2nos{
+            display: flexbox;
+            line-height: 2.0;
+            font-size: 25px;
+            letter-spacing: 5px;
+        }
+    }
+    @media screen and (max-width: 1450px){
+        .content-h2nos{
+            display: flexbox;
+            line-height: 3.0;
+            font-size: 25px;
+            letter-spacing: 3px;
+        }
+    }
+}
+/*---nuestra mision.html---*/
+.content-h2nm{
+    font-size: 50px;
+    font-weight: 500;
+    color: map-get($h2, color-h2 );
+    background-color: map-get($h2,  bg-color );
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 15px;
+    line-height: 4.0;
+    @media screen and (max-width: 560px){
+        .content-h2nm{
+            display: flexbox;
+            justify-content: center;
+            text-align: center;
+            line-height: 2.0;
+            font-size: 20px;
+            letter-spacing: 5px;
+        }
+    }
 }

@@ -35,6 +35,88 @@ header .content-logo {
 
 /*---COLORES---*/
 /*---index.html---*/
+@media screen and (max-width: 400px) {
+  .section-2 {
+    display: flex;
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 530px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto; } }
+
+@media screen and (max-width: 770px) {
+  .form-class {
+    display: flex;
+    flex-direction: column; } }
+
+/*---nosotros.html---*/
+@media screen and (min-width: 400px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    text-align: end; } }
+
+@media screen and (max-width: 570px) {
+  .content-h2nos {
+    display: flexbox;
+    line-height: 2.0;
+    font-size: 25px;
+    letter-spacing: 5px; } }
+
+@media screen and (max-width: 1450px) {
+  .content-h2nos {
+    display: flexbox;
+    line-height: 3.0;
+    font-size: 25px;
+    letter-spacing: 3px; } }
+
+/*---contacto.html---*/
+@media screen and (max-width: 440px) {
+  .li-email {
+    display: flexbox;
+    justify-content: left;
+    text-align: left; } }
+
+@media screen and (max-width: 375px) {
+  .li-email {
+    font-size: 17px; } }
+
+/*---proceso.html---*/
+@media screen and (max-width: 875px) {
+  .img1-mainproces {
+    size: 2000px;
+    height: 100%;
+    width: 100%; } }
+
+/*---nuestra historia.html---*/
+@media screen and (max-width: 570px) {
+  .content-h2nm {
+    display: flexbox;
+    line-height: 2.0;
+    font-size: 25px;
+    letter-spacing: 5px; } }
+
+@media screen and (max-width: 600px) {
+  .content-pnmt {
+    display: flexbox;
+    line-height: 1.2;
+    font-size: 10px; } }
+
+@media screen and (max-width: 900px) {
+  .content-imgnm {
+    size: 500px;
+    height: 100%;
+    width: 100%; } }
+
+@media screen and (max-width: 650px) {
+  .sec-foonm {
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px; } }
+
+/*---index.html---*/
 main .section-2 {
   font-weight: 500;
   font-size: 20px;
@@ -143,7 +225,8 @@ main {
     font-weight: 500;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #3D3D3D;
-    color: bisque; }
+    color: bisque;
+    line-height: 2.5; }
   main .link {
     background-color: #3D3D3D;
     color: #318adf; }
@@ -152,11 +235,6 @@ main {
 main .content-maincon {
   padding-top: 20px;
   background-color: #3D3D3D; }
-
-main h2 {
-  font-size: 30px;
-  font-weight: 500;
-  color: bisque; }
 
 main ul .li-email {
   margin: 0%;
@@ -168,8 +246,89 @@ main ul .li-email {
   font-weight: 900;
   width: 100%;
   height: 100%;
-  display: inline-block;
+  display: flexbox;
+  justify-content: center;
   text-align: center; }
+
+@media screen and (max-width: 440px) {
+  main ul .li-email {
+    display: flexbox;
+    justify-content: left;
+    text-align: left; } }
+
+@media screen and (max-width: 375px) {
+  main ul .li-email {
+    font-size: 17px; } }
+
+/*---proceso.html---*/
+main .content-mainproces {
+  background-color: #3D3D3D; }
+  main .content-mainproces .content-pproces {
+    margin: 0%;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: coral;
+    color: bisque; }
+  main .content-mainproces .content-divproces {
+    display: flexbox;
+    justify-content: center;
+    text-align: center; }
+  main .content-mainproces .img1-mainproces {
+    size: 1500px;
+    height: 850px;
+    width: 850px; }
+  @media screen and (max-width: 875px) {
+    main .content-mainproces .img1-mainproces {
+      size: 2000px;
+      height: 100%;
+      width: 100%; } }
+
+/*---proceso.html---*/
+main .content-pnm {
+  margin: 0;
+  padding: 0;
+  display: flexbox;
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 500;
+  color: coral; }
+
+main .content-pnmt {
+  margin: 0;
+  padding-top: 10px;
+  display: flexbox;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.5;
+  letter-spacing: 5px;
+  color: bisque;
+  background-color: #3D3D3D; }
+
+@media screen and (max-width: 600px) {
+  main .content-pnmt {
+    display: flexbox;
+    line-height: 1.2;
+    font-size: 20px;
+    line-height: 1.5; } }
+
+main .content-divnm {
+  display: flexbox;
+  justify-content: center;
+  text-align: center; }
+  main .content-divnm .content-imgnm {
+    size: 800px;
+    width: 1000px;
+    height: 1000px; }
+  @media screen and (max-width: 900px) {
+    main .content-divnm .content-imgnm {
+      size: 500px;
+      height: 100%;
+      width: 100%; } }
 
 /*---contacto.html---*/
 h1 {
@@ -183,29 +342,79 @@ h1 {
   color: #f0d3af; }
 
 /*---COLORES---*/
-/*---contacto.html---*/
-.content-h2 {
-  color: bisque;
+/*---index.html---*/
+.content-h2ind {
   font-size: 25px;
-  padding: 0;
-  font-weight: 900;
+  font-weight: 500;
+  color: bisque;
+  background-color: #3D3D3D;
+  display: flexbox;
+  justify-content: center;
   text-align: center;
-  text-decoration: underline;
-  background-color: #3D3D3D; }
+  letter-spacing: 3px;
+  line-height: 3.0; }
+
+/*---contacto.html---*/
+.content-h2contacto {
+  font-size: 25px;
+  font-weight: 500;
+  color: bisque;
+  background-color: #3D3D3D;
+  display: flexbox;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 3.0; }
 
 /*---nosotros.html---*/
 .content-h2nos {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500;
   color: bisque;
+  background-color: #3D3D3D;
+  display: flexbox;
+  justify-content: center;
   text-align: center;
-  background-color: #3D3D3D; }
+  letter-spacing: 15px;
+  line-height: 4.0; }
+  @media screen and (max-width: 570px) {
+    .content-h2nos .content-h2nos {
+      display: flexbox;
+      line-height: 2.0;
+      font-size: 25px;
+      letter-spacing: 5px; } }
+  @media screen and (max-width: 1450px) {
+    .content-h2nos .content-h2nos {
+      display: flexbox;
+      line-height: 3.0;
+      font-size: 25px;
+      letter-spacing: 3px; } }
+
+/*---nuestra mision.html---*/
+.content-h2nm {
+  font-size: 50px;
+  font-weight: 500;
+  color: bisque;
+  background-color: #3D3D3D;
+  display: flexbox;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 15px;
+  line-height: 4.0; }
+  @media screen and (max-width: 560px) {
+    .content-h2nm .content-h2nm {
+      display: flexbox;
+      justify-content: center;
+      text-align: center;
+      line-height: 2.0;
+      font-size: 20px;
+      letter-spacing: 5px; } }
 
 h3 {
-  padding-top: 10px;
   display: flex;
   font-size: 25px;
   font-weight: 500;
+  line-height: 2.5;
   color: bisque;
   background-color: coral; }
 
@@ -228,13 +437,10 @@ form {
 
 footer {
   font-weight: 900;
-  font-size: medium;
+  font-size: 20px;
   color: bisque;
-  background-color: #3D3D3D; }
-
-/*---index.html---*/
-.content-footerindex {
-  padding-top: 50px; }
+  background-color: #3D3D3D;
+  line-height: 2.5; }
 
 /*---nosotros.html---*/
 footer .clas-foot {
@@ -268,6 +474,25 @@ footer .content-nos .content-imagencontacto {
   height: 70%;
   size: 70%; }
 
+/*---proceso.html---*/
+footer .content-footerproces {
+  background-color: coral; }
+
+/*---nuestra mision.html---*/
+footer .sec-foonm {
+  display: flexbox;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+  padding-top: 10px; }
+
+@media screen and (max-width: 650px) {
+  footer .sec-foonm {
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px; } }
+
 /*---index.html---*/
 @media screen and (max-width: 400px) {
   .section-2 {
@@ -291,18 +516,64 @@ footer .content-nos .content-imagencontacto {
     flex-direction: column;
     text-align: end; } }
 
-@media screen and (max-width: 580px) {
-  .h2 {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: left; } }
+@media screen and (max-width: 570px) {
+  .content-h2nos {
+    display: flexbox;
+    line-height: 2.0;
+    font-size: 25px;
+    letter-spacing: 5px; } }
+
+@media screen and (max-width: 1450px) {
+  .content-h2nos {
+    display: flexbox;
+    line-height: 3.0;
+    font-size: 25px;
+    letter-spacing: 3px; } }
 
 /*---contacto.html---*/
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 440px) {
   .li-email {
-    display: flex;
-    flex-wrap: wrap;
+    display: flexbox;
+    justify-content: left;
     text-align: left; } }
+
+@media screen and (max-width: 375px) {
+  .li-email {
+    font-size: 17px; } }
+
+/*---proceso.html---*/
+@media screen and (max-width: 875px) {
+  .img1-mainproces {
+    size: 2000px;
+    height: 100%;
+    width: 100%; } }
+
+/*---nuestra historia.html---*/
+@media screen and (max-width: 570px) {
+  .content-h2nm {
+    display: flexbox;
+    line-height: 2.0;
+    font-size: 25px;
+    letter-spacing: 5px; } }
+
+@media screen and (max-width: 600px) {
+  .content-pnmt {
+    display: flexbox;
+    line-height: 1.2;
+    font-size: 10px; } }
+
+@media screen and (max-width: 900px) {
+  .content-imgnm {
+    size: 500px;
+    height: 100%;
+    width: 100%; } }
+
+@media screen and (max-width: 650px) {
+  .sec-foonm {
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px; } }
 
 /*---COLORES---*/
 .clas-headernos {

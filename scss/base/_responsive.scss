@@ -26,19 +26,74 @@
         text-align: end;
     }
 }
-@media screen and (max-width: 580px){
-    .h2{
-        display: flex;
-        flex-wrap: wrap;
-        text-align: left;
+@media screen and (max-width: 570px){
+    .content-h2nos{
+        display: flexbox;
+        line-height: 2.0;
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+}
+@media screen and (max-width: 1450px){
+    .content-h2nos{
+        display: flexbox;
+        line-height: 3.0;
+        font-size: 25px;
+        letter-spacing: 3px;
     }
 }
 /*---contacto.html---*/
-@media screen and (max-width: 450px){
+@media screen and (max-width: 440px){
     .li-email{
-        display: flex;
-        flex-wrap: wrap;
+        display: flexbox;
+        justify-content: left;
         text-align: left;
     }
 }
+@media screen and (max-width: 375px){
+    .li-email{
+        font-size: 17px;
+    }
+}
 
+/*---proceso.html---*/
+
+@media screen and (max-width: 875px){
+    .img1-mainproces{
+        size: 2000px;
+        height: 100%;
+        width: 100%;
+    }
+}
+/*---nuestra historia.html---*/
+@media screen and (max-width: 570px){
+    .content-h2nm{
+        display: flexbox;
+        line-height: 2.0;
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .content-pnmt{
+        display: flexbox;
+        line-height: 1.2;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 900px){
+    .content-imgnm{
+        size: 500px;
+        height: 100%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px){
+    .sec-foonm{
+        display: flexbox;
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+    }
+}

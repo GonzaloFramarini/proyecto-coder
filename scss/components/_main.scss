@@ -1,4 +1,5 @@
 @import "../base/variables";
+@import "../base/responsive";
 /*---index.html---*/
 main {
     .section-2{
@@ -113,6 +114,7 @@ main {
         font-family: Georgia, 'Times New Roman', Times, serif;
         background-color: #3D3D3D;
         color: bisque;
+        line-height: 2.5;
     }
     .link{
         background-color: #3D3D3D;
@@ -125,11 +127,6 @@ main {
         padding-top: 20px;
         background-color: #3D3D3D;
     }
-    h2{
-        font-size: 30px;
-        font-weight: 500;
-        color: bisque;
-    }
     ul{
         .li-email{
             margin: 0%;
@@ -141,8 +138,105 @@ main {
             font-weight: 900;
             width: 100%;
             height: 100%;
-            display: inline-block;
+            display: flexbox;
+            justify-content: center;
             text-align: center;
+        }
+        @media screen and (max-width: 440px){
+            .li-email{
+                display: flexbox;
+                justify-content: left;
+                text-align: left;
+            }
+        }
+        @media screen and (max-width: 375px){
+            .li-email{
+                font-size: 17px;
+            }
+        }
+    }
+}
+/*---proceso.html---*/
+main{
+    .content-mainproces{
+        background-color: #3D3D3D;
+        .content-pproces{
+            margin: 0%;
+            display: flex;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 500;
+            background-color: coral;
+            color: bisque;
+        }
+        .content-divproces{
+            display: flexbox;
+            justify-content: center;
+            text-align: center;
+            }
+            .img1-mainproces{
+                size: 1500px;
+                height: 850px;
+                width: 850px;
+            }
+            @media screen and (max-width: 875px){
+                .img1-mainproces{
+                    size: 2000px;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+    }
+}
+/*---proceso.html---*/
+main{
+    .content-pnm{
+        margin: 0;
+        padding: 0;
+        display: flexbox;
+        text-align: center;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: 500;
+        color: coral;
+    }
+    .content-pnmt{
+        margin: 0;
+        padding-top: 10px;
+        display: flexbox;
+        text-align: center;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 2.5;
+        letter-spacing: 5px;
+        color: bisque;
+        background-color: #3D3D3D;
+        
+    }
+    @media screen and (max-width: 600px){
+        .content-pnmt{
+            display: flexbox;
+            line-height: 1.2;
+            font-size: 20px;
+            line-height: 1.5;
+        }
+    }
+    .content-divnm{
+        display: flexbox;
+        justify-content: center;
+        text-align: center;
+        .content-imgnm{
+            size: 800px;
+            width: 1000px;
+            height: 1000px;
+        }
+        @media screen and (max-width: 900px){
+            .content-imgnm{
+                size: 500px;
+                height: 100%;
+                width: 100%;
+            }
         }
     }
 }

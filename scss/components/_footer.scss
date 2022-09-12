@@ -1,12 +1,9 @@
 footer{
     font-weight: 900;
-    font-size: medium;
+    font-size: 20px;
     color: bisque;
     background-color: #3D3D3D;
-}
-/*---index.html---*/
-.content-footerindex{
-    padding-top: 50px;
+    line-height: 2.5;
 }
 /*---nosotros.html---*/
 footer{
@@ -44,5 +41,30 @@ footer .content-nos{
         width: 70%;
         height: 70%;
         size: 70%;
+    }
+}
+/*---proceso.html---*/
+footer{
+    .content-footerproces{
+        background-color: coral;
+    }
+}
+
+/*---nuestra mision.html---*/
+footer{
+    .sec-foonm{
+        display: flexbox;
+        justify-content: center;
+        text-align: center;
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    @media screen and (max-width: 650px){
+        .sec-foonm{
+            display: flexbox;
+            justify-content: center;
+            text-align: center;
+            font-size: 18px;
+        }
     }
 }
